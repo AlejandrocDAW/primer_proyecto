@@ -1,10 +1,11 @@
 class Persona 
 {
    //atributos
-   private Nombre;
-   private Apellido;
+   private String nombre;
+   private String apellido;
    
    //constructor
-   public Nif(){
+   public static Nif(String nombre){
+      this.nombre = nombre;
    }
 }
